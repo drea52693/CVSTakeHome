@@ -89,21 +89,6 @@ An Android application for searching Rick and Morty characters with real-time fi
 - Navigation flows
 - Filter functionality
 
-## Requirements Met
-
-Search bar at top with grid below  
-Real-time search updates  
-Progress indicator during loading  
-Detail view with all required information  
-Unit tests  
-Kotlin & Jetpack Compose  
-
-**Extra Credit Implemented:**
-UI tests (17 comprehensive tests)  
-Share functionality  
-Animated image transitions  
-Filter options (status, species, type)  
-
 ## API
 
 Uses the free [Rick and Morty API](https://rickandmortyapi.com/):
