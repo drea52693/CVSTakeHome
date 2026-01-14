@@ -1,6 +1,25 @@
 # Rick and Morty Character Search
 
-An Android application for searching Rick and Morty characters with real-time filtering and smooth animations.
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-blue.svg)](https://kotlinlang.org)
+[![Android](https://img.shields.io/badge/Android-API%2026+-green.svg)](https://developer.android.com)
+[![Compose](https://img.shields.io/badge/Jetpack%20Compose-BOM%202024.09-orange.svg)](https://developer.android.com/jetpack/compose)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+An Android application for searching Rick and Morty characters with real-time filtering and smooth animations. Built with modern Android development practices using Jetpack Compose and MVVM architecture.
+
+## Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Architecture](#architecture)
+- [Building & Running](#building--running)
+- [Testing](#testing)
+- [Screenshots](#screenshots)
+- [Code Highlights](#code-highlights)
+- [API](#api)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
@@ -89,7 +108,16 @@ An Android application for searching Rick and Morty characters with real-time fi
 - Navigation flows
 - Filter functionality
 
-## Requirements Met
+## Screenshots
+
+<!-- Add screenshots here -->
+<!-- 
+![Search Screen](screenshots/search.png)
+![Detail Screen](screenshots/detail.png)
+![Filter Options](screenshots/filters.png)
+-->
+
+## Features Checklist
 
 ✅ Search bar at top with grid below  
 ✅ Real-time search updates  
@@ -98,20 +126,11 @@ An Android application for searching Rick and Morty characters with real-time fi
 ✅ Unit tests  
 ✅ Kotlin & Jetpack Compose  
 
-**Extra Credit Implemented:**
-✅ UI tests (17 comprehensive tests)  
+**Additional Features:**
+✅ UI tests (comprehensive test coverage)  
 ✅ Share functionality  
 ✅ Animated image transitions  
-✅ Filter options (status, species, type)  
-
-## Time Breakdown
-
-- Core functionality (search, detail, API): ~1.5 hours
-- Filtering system: ~30 minutes
-- Animations & polish: ~30 minutes
-- Testing: ~30 minutes
-
-**Total: ~3 hours**
+✅ Filter options (status, species, type)
 
 ## Code Highlights
 
@@ -171,6 +190,10 @@ app/src/main/java/com/example/cvstakehome/
 └── MainActivity.kt
 ```
 
+## Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](../../issues).
+
 ## License
 
-This is a code challenge submission.
+This project is open source and available under the [MIT License](LICENSE).

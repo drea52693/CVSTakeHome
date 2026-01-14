@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CVS Takehome"
+rootProject.name = "RickAndMortyCharacterSearch"
 include(":app")
  
